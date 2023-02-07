@@ -1,7 +1,7 @@
 {
   "name": "xelerus",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "A simple chatbot created with NextJS and powered by OpenAI",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/lab": "^5.0.0-alpha.119",
+    "@mui/material": "^5.11.8",
     "@next/font": "13.1.6",
     "@types/node": "18.13.0",
     "@types/react": "18.0.27",
@@ -16,8 +20,12 @@
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
+    "openai": "^3.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.5"
+  },
+  "engines": {
+    "node": ">=16.16.0"
   }
 }
